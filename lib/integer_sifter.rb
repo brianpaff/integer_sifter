@@ -4,7 +4,7 @@ class IntegerSifter
     when :BACCAB
       return BACCABSifter.new
     when :ABAABBAAABBB
-      return ABAABBAAABBBSifter.new
+      return ABAABBAAABBBSifter.n
     when :ABBA_Thilo
       return ABBA_Thilo_Sifter.new
     else
